@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './UserList';
+import {UserList, PostsLists, CommentsLists} from './scenes';
 import 'antd/dist/antd.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UserList />
+    <PostsLists/>
+    <CommentsLists/>
   </React.StrictMode>,
   document.getElementById('root')
 );
